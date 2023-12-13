@@ -5,7 +5,7 @@ c) other_files
 
 In Tweet_Script_files and news_Script_files, you will find the translated Query in a CSV file,  input for LLM and LLM output. Along with these, you will find the Jupyter Notebook and 
 python files to generate the above files.
-
+```bash
 ├── Tweet_Script_files
 │   ├── LLM_output_just_BM25_tweet_first_100_training.json : [LLM Output for just using BM25]
 │   ├── LLM_output_just_pluse_rev_tweet_first_100_training.json : [LLM Output for translation pipeline using BM25]
@@ -30,5 +30,6 @@ python files to generate the above files.
     ├── train_questions_tweet.json
     ├── translation_colab.ipynb
     └── tweeter_translation_process.py
+```
 
     
